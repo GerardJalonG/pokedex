@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#pkmn {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 2rem;
+    row-gap: 1rem;
+}
